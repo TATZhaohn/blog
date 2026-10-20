@@ -47,9 +47,9 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/TATZhaohn || GitHub || '#24292e'
-  fab fa-bilibili: https://space.bilibili.com/324056528 || Bilibili || '#00A1D6'
+  fab fa-bilibili: https://space.bilibili.com/324056528 || Bilibili || '#fb7299'
   fas fa-cube: https://makerworld.com.cn/@TATZhao || MakerWorld || '#00c4b6'
-  fas fa-microchip: https://oshwhub.com/tatzhao || 嘉立创OSHUB || '#2ea44f'
+  fas fa-microchip: https://oshwhub.com/tatzhao || 嘉立创OSHUB || '#0078d4'
 
 # --------------------------------------
 # Image Settings
@@ -58,7 +58,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.webp
   effect: false
 
 # Disable all banner images
@@ -95,7 +95,7 @@ footer_img: false
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: url(/img/bg.webp)
 
 cover:
   # Disable the cover or not
