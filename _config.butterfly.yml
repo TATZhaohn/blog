@@ -172,10 +172,12 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - '$ git add . && git commit -m "update"'
-    - '$ npm run build && git push'
-    - 'for (;;) { keepCoding() }'
-    - 'console.log("Hello, TAT趙")'
+    - 'for (int i = 0; i < n; ++i) sum += a[i];'
+    - 'always @(posedge clk) q <= d;'
+    - 'std::cout << "Hello, TAT趙\n";'
+    - 'assign y = (a & b) | c;'
+    - 'uint32_t reg = (1u << 3) | (1u << 7);'
+    - "if (!rst_n) q <= 8'h00;"
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
