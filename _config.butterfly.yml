@@ -162,6 +162,8 @@ subtitle:
     backDelay: 1600
     loop: true
     cursorChar: '▌'
+    # 关键：Typed.js 默认 contentType: html，代码里的 "<" 会被当成标签吞掉后面的内容
+    contentType: 'text'
   # Source - Call the third-party service API (Chinese only)
   # It will show the source first, then show the content of sub
   # Choose: false/1/2/3
