@@ -1060,7 +1060,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - "<style>#page-header.full_page{background-color:rgba(128,128,128,.4)!important}#page-header.full_page:before{background-color:transparent!important}#footer{background-color:rgba(128,128,128,.4)!important}#footer:before{background-color:transparent!important}</style>"
+    - "<style>#page-header.full_page{background-color:rgba(128,128,128,.4)!important}#page-header.full_page:before{background-color:transparent!important}#footer{background-color:rgba(128,128,128,.4)!important}#footer:before{background-color:transparent!important}#rightside.rightside-show{opacity:1!important}</style>"
     # Giscus 评论已预留（默认未启用）：
     #   1) 在 https://giscus.app 用仓库 blog 完成配置，拿到 repo/repo_id/category_id；
     #   2) 把上方 comments.use 改为 Giscus；
