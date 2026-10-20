@@ -1,4 +1,4 @@
-# TAT 趙 的个人博客
+# TAT趙 的个人博客
 
 基于 [Hexo 8](https://hexo.io/) + [Butterfly 5.7](https://butterfly.js.org/) 的静态博客，通过 GitHub Actions 自动构建并部署到 GitHub Pages，自定义域名 **tatzhao.top**。
 
@@ -72,8 +72,8 @@ npx hexo new page about      # 生成 source/about/index.md
 
 | 配置 | 当前值 | 说明 |
 | --- | --- | --- |
-| `title` | `TAT 趙` | 站点标题 |
-| `author` | `TAT 趙` | 作者 |
+| `title` | `TAT趙` | 站点标题 |
+| `author` | `TAT趙` | 作者 |
 | `language` | `zh-CN` | 界面语言 |
 | `timezone` | `Asia/Shanghai` | 时区 |
 | `url` | `https://tatzhao.top` | 站点根地址（影响所有绝对链接） |
@@ -103,7 +103,7 @@ npx hexo new page about      # 生成 source/about/index.md
 | --- | --- |
 | 仓库 | `TATZhaohn/blog` |
 | 域名 | `tatzhao.top` |
-| 署名 | TAT 趙 |
+| 署名 | TAT趙 |
 | GitHub | <https://github.com/TATZhaohn> |
 | Bilibili | <https://space.bilibili.com/324056528> |
 | Makerworld | <https://makerworld.com.cn/@TATZhao> |

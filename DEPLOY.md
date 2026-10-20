@@ -16,7 +16,7 @@
 
 ```bash
 cd blog
-git config user.name "TAT 趙"
+git config user.name "TAT趙"
 git config user.email "TATZhaohn@users.noreply.github.com"   # 可换成你 GitHub 账号的 noreply 邮箱
 ```
 
