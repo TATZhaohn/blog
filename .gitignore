@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+# DSH 操作工具临时锁文件（不应入库）
+.dsh-ops-update-*.lock
