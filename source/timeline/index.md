@@ -5,7 +5,7 @@ comments: false
 toc: false
 ---
 
-{% timeline 2026, #49b1f5 %}
+{% timeline 2026, #6EA6FE %}
 <!-- timeline 10 月 -->
 - [10-20](https://github.com/TATZhaohn/blog) GitHub 项目：blog
 - [10-12](https://makerworld.com.cn/zh/models/3092666-p2sfu-zhu-san-re-qi-gao-zhi-liang-tatz-tuo-zhu-p2s) 3D 模型：P2S辅助散热器 - 高质量【TATZ】拓竹P2S辅助风扇
@@ -42,7 +42,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2025, #49b1f5 %}
+{% timeline 2025, #6EA6FE %}
 <!-- timeline 12 月 -->
 - [12-26](https://www.bilibili.com/video/BV1jzBdBmEvd) 视频：进行这个操作，让每天至少多出30分钟?!
 - [12-21](https://www.bilibili.com/video/BV17oBFBZEyS) 视频：9.9包邮夹耳式耳机和199主流价位的区别有多大？
@@ -113,7 +113,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2024, #49b1f5 %}
+{% timeline 2024, #6EA6FE %}
 <!-- timeline 12 月 -->
 - [12-29](https://www.bilibili.com/video/BV1jm68Y9Emq) 视频：澎湃OS2修改版系统桌面来了！【TAT趙】
 - [12-08](https://www.bilibili.com/video/BV1dy6NYUEgn) 视频：我买它竟然是为了“省钱”！？【小米人在传感器】
@@ -159,7 +159,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2023, #49b1f5 %}
+{% timeline 2023, #6EA6FE %}
 <!-- timeline 12 月 -->
 - [12-29](https://www.bilibili.com/video/BV1Dj411n7Kb) 视频：四、MIUI保留Root升级澎湃OS教程【小米澎湃OS】【Root教程】完整解…
 - [12-16](https://www.bilibili.com/video/BV1NN4y1a7BK) 视频：【HyperOs】超棒小米澎湃修改系统桌面来也!
@@ -200,7 +200,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2022, #49b1f5 %}
+{% timeline 2022, #6EA6FE %}
 <!-- timeline 12 月 -->
 - [12-23](https://www.bilibili.com/video/BV1q84y1s7hH) 视频：这™才叫MIUI14！小米系统桌面全新修改
 - [12-13](https://www.bilibili.com/video/BV1md4y1e7H3) 视频：MIUI14重回巅峰？还没。MIUI14评测/吐槽
@@ -300,7 +300,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2021, #49b1f5 %}
+{% timeline 2021, #6EA6FE %}
 <!-- timeline 12 月 -->
 - [12-31](https://www.bilibili.com/video/BV1dZ4y1D76Q) 视频：【年度报告】TAT趙的2021时光机
 - [12-30](https://www.bilibili.com/video/BV18i4y1R7Eq) 视频：快进来！让你“体验”使用MIUI13！
@@ -400,7 +400,7 @@ toc: false
 <!-- endtimeline -->
 {% endtimeline %}
 
-{% timeline 2019, #49b1f5 %}
+{% timeline 2019, #6EA6FE %}
 <!-- timeline 10 月 -->
 - [10-12](https://www.bilibili.com/video/BV1pE411Z7z1) 视频：某大附中 新 宝 岛
 <!-- endtimeline -->
