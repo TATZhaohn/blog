@@ -10,15 +10,15 @@
 
 站点不只是文章列表，把散落在各平台的作品汇总成了 7 个板块：
 
-| 板块 | 路径 | 内容 | 数量 |
-| --- | --- | --- | --- |
-| 首页 | `/` | 站内板块入口 + 最新视频 + 最新文章 | — |
-| 视频 | `/videos/` | B 站投稿卡片墙，点卡片直接跳 B 站 | 251 条 |
-| GitHub | `/projects/` | 公开仓库介绍文章 | 3 篇 |
-| 3D 模型 | `/models/` | MakerWorld 模型介绍文章 | 13 篇 |
-| 硬件项目 | `/hardware/` | 嘉立创 OSHUB 开源工程介绍文章 | 3 篇 |
-| 壁纸 | `/wallpapers/` | 自用壁纸分享（静态图 / Wallpaper Engine 两类） | 持续更新 |
-| 时间轴 | `/timeline/` | 按月汇总全站更新（视频 / 项目 / 模型 / 硬件） | — |
+| 板块 | 路径 | 内容 |
+| --- | --- | --- |
+| 首页 | `/` | 站内板块入口 + 最新视频 + 最新文章 |
+| 视频 | `/videos/` | B 站投稿卡片墙，点卡片直接跳 B 站 |
+| GitHub | `/projects/` | 公开仓库介绍文章 |
+| 3D 模型 | `/models/` | MakerWorld 模型介绍文章 |
+| 硬件项目 | `/hardware/` | 嘉立创 OSHUB 开源工程介绍文章 |
+| 壁纸 | `/wallpapers/` | 自用壁纸分享（静态图 / Wallpaper Engine 两类） |
+| 时间轴 | `/timeline/` | 按月汇总全站更新（视频 / 项目 / 模型 / 硬件） |
 
 各板块卡片都支持排序切换（按日期 / 播放量 / Star / 用量等，再点一次切换升/降序）。
 
@@ -33,13 +33,13 @@ blog/
 │  └─ search-videos.js        # 构建时把视频条目合并进 search.xml
 ├─ source/
 │  ├─ _data/
-│  │  ├─ home_sections.yml    # 首页「站内板块」数据（名称/图标/数量/链接）
-│  │  ├─ home_videos.yml      # 首页「最新视频」数据（6 条）
-│  │  └─ videos-search.json   # 全量视频搜索数据（251 条）
+│  │  ├─ home_sections.yml    # 首页「站内板块」数据（名称/图标/链接）
+│  │  ├─ home_videos.yml      # 首页「最新视频」数据
+│  │  └─ videos-search.json   # 全量视频搜索数据
 │  ├─ _posts/
-│  │  ├─ github/              # GitHub 项目文章（3 篇）
-│  │  ├─ models/              # 3D 模型文章（13 篇）
-│  │  ├─ hardware/            # 硬件项目文章（3 篇）
+│  │  ├─ github/              # GitHub 项目文章
+│  │  ├─ models/              # 3D 模型文章
+│  │  ├─ hardware/            # 硬件项目文章
 │  │  └─ hello-world.md       # 建站示例文章
 │  ├─ videos/index.md         # 视频卡片墙
 │  ├─ projects/index.md       # GitHub 板块页
@@ -63,18 +63,18 @@ blog/
 
 ## 内容维护
 
-### 视频（251 条）
+### 视频
 
 `source/videos/index.md` 是脚本生成后写入的静态 HTML 卡片墙，每张卡带 `id="BV号"` 锚点。视频数据来自 B 站：
 
-- 全量数据 `source/_data/videos-search.json`（251 条：id / title / desc / url / date / season）
-- 首页 6 条最新视频在 `source/_data/home_videos.yml`
+- 全量数据 `source/_data/videos-search.json`（id / title / desc / url / date / season）
+- 首页最新视频在 `source/_data/home_videos.yml`
 
-要加新视频：取到 `bvid`、标题、封面（存 `source/img/covers/video-<bvid>.jpg`）、简介、播放量、发布日期，同步更新三个文件后重新构建。
+要加新视频：取到 `bvid`、标题、封面（存 `source/img/covers/video-<bvid>.jpg`）、简介、播放量、发布日期，同步更新上面两个文件后重新构建。
 
-### GitHub / 3D 模型 / 硬件（共 19 篇文章）
+### GitHub / 3D 模型 / 硬件
 
-每项一篇文章，front-matter 需带 `permalink` 指定 URL（否则会按默认永久链接生成导致板块页卡片 404）：
+每个作品一篇文章，front-matter 需带 `permalink` 指定 URL（否则会按默认永久链接生成导致板块页卡片 404）：
 
 ```yaml
 ---
@@ -96,14 +96,7 @@ toc: true
 
 ### 壁纸
 
-`source/wallpapers/index.md` 里分「静态图片」和「Wallpaper Engine 动态壁纸」两类。图片放 `source/img/wallpapers/`，**按 `年-月` 命名**（如 `2026-10.webp`），卡片写法：
-
-```html
-<a class="wallpaper-item" href="/img/wallpapers/2026-10.webp" target="_blank">
-  <img src="/img/wallpapers/2026-10.webp" alt="2026-10" loading="lazy">
-  <span>2026-10</span>
-</a>
-```
+壁纸页分「静态图片」和「Wallpaper Engine 动态壁纸」两类，新增内容后按现有卡片格式追加即可。
 
 ### 时间轴
 
@@ -114,7 +107,7 @@ toc: true
 <!-- timeline 10 月 -->
 - 10-20 GitHub 项目：本站源码
 - 10-12 3D 模型：P2S 辅助散热器
-<!-- endtimeline %}
+<!-- endtimeline -->
 {% endtimeline %}
 ```
 
@@ -140,7 +133,7 @@ Push 到 `main` 后，GitHub Actions（`.github/workflows/pages.yml`）执行 `n
 Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field: post`），视频是页面内容、不是文章，所以搜不到。这里用构建脚本补上：
 
 - `scripts/search-videos.js` 监听 **`hexo.on('exit')`**（不能用 `after_generate` —— 那时路由还没落盘，`hexo clean` 后文件不存在会静默跳过）
-- 构建产物 `public/search.xml` 生成后，把 `source/_data/videos-search.json` 里的 251 条视频以 `<entry data-video-entry="1">` 形式插入 `</search>` 之前
+- 构建产物 `public/search.xml` 生成后，把 `source/_data/videos-search.json` 里的视频条目以 `<entry data-video-entry="1">` 形式插入 `</search>` 之前
 - 视频 URL 指向 `/videos/#BV号`，点搜索结果直接定位到对应卡片
 
 ## 主题定制
@@ -180,5 +173,5 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 ## 待办
 
 - [ ] 用 Giscus 启用评论
-- [ ] 补全 B 站剩余 21 条早期视频（272 条中已采 251 条，其余受平台风控限制）
+- [ ] 补全 B 站剩余早期视频（受平台风控限制）
 - [ ] 壁纸板块持续补充
