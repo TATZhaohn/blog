@@ -180,6 +180,4 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 
 ## 待办
 
-- [x] 用 Giscus 启用评论（配置完成，待安装 giscus App 后生效）
-- [ ] 补全 B 站剩余早期视频（受平台风控限制）
 - [ ] 壁纸板块持续补充
