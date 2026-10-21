@@ -18,6 +18,25 @@ top_img: /img/top-plain.png
 
 这是一个基于esp wroom 32e制作的带RGB的支持小爱同学控制的智能桌面空气净化器（已验证）
 
+<!-- enriched -->
+
+## 功能特点
+
+- 基于 **ESP WROOM 32E** 的桌面空气净化器
+- **RGB 氛围灯**，可以当桌面摆件
+- 支持**小爱同学**语音控制
+- 已完成原型验证
+
+## 硬件与开源
+
+- 主控：ESP WROOM 32E
+- 参与嘉立创 **星火计划 2024**
+- PCB 工程开源在嘉立创 OSHUB
+
+## 相关视频
+
+- [自制了一个超炫的空气净化器！！！](https://www.bilibili.com/video/BV1aH4y1u7fi) · 4.6 万 播放
+
 ## 相关链接
 
 - 🔗 [OSHUB 开源工程](https://oshwhub.com/tatzhao/smart-colorful-air-purifier-spark-plan)
