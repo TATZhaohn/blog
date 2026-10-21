@@ -1,0 +1,34 @@
+//- 首页板块入口 + 最新视频（Lead 自建）
+- const homeVideos = site.data.home_videos || []
+- const homeSections = site.data.home_sections || []
+
+#home-sections
+  .home-section-title
+    i.fas.fa-compass
+    span 站内板块
+  .home-section-grid
+    each s in homeSections
+      a.home-section-card(href=url_for(s.href))
+        .home-section-icon
+          i(class=s.icon)
+        .home-section-name= s.title
+        .home-section-desc= s.desc
+        .home-section-count= s.count
+
+  if homeVideos.length
+    #home-videos
+      .home-section-title
+        i.fas.fa-play-circle
+        span 最新视频
+        a.home-section-more(href=url_for('/videos/')) 查看全部 →
+      .works-page
+        each v in homeVideos
+          .work-card
+            .work-card__cover
+              img(src=url_for(v.cover) alt=v.title loading='lazy')
+            .work-card__body
+              p.work-card__title= v.title
+              .work-card__meta
+                span= v.play ? v.play + ' 播放' : ''
+                span= v.date
+            a.work-card__click(href=v.url target='_blank' rel='noopener' aria-label=v.title)

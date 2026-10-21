@@ -42,6 +42,10 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     #body-wrap(class=pageType)
       include ./header/index.pug
 
+      if globalPageType === 'home'
+        #home-sections-wrap
+          include ./home-sections.pug
+
       main#content-inner.layout(class=hideAside)
         if body
           div!= body
