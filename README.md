@@ -39,8 +39,7 @@ blog/
 │  ├─ _posts/
 │  │  ├─ github/              # GitHub 项目文章
 │  │  ├─ models/              # 3D 模型文章
-│  │  ├─ hardware/            # 硬件项目文章
-│  │  └─ hello-world.md       # 建站示例文章
+│  │  └─ hardware/            # 硬件项目文章
 │  ├─ videos/index.md         # 视频卡片墙
 │  ├─ projects/index.md       # GitHub 板块页
 │  ├─ models/index.md         # 3D 模型板块页
