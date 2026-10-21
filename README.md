@@ -135,6 +135,15 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 - 构建产物 `public/search.xml` 生成后，把 `source/_data/videos-search.json` 里的视频条目以 `<entry data-video-entry="1">` 形式插入 `</search>` 之前
 - 视频 URL 指向 `/videos/#BV号`，点搜索结果直接定位到对应卡片
 
+## 评论
+
+用 [Giscus](https://giscus.app/)：评论存在本仓库的 GitHub Discussions 里，不依赖任何额外的数据库或服务。
+
+- 仓库已开启 Discussions，分类用 `Announcements`
+- `_config.butterfly.yml`：`comments.use: Giscus`；`giscus.repo` / `repo_id` / `category_id` 已填好，`option` 里设了 `data-lang: zh-CN`、`data-input-position: top`、`data-reactions-enabled: 1`
+- **必须在仓库上安装 giscus App**（<https://github.com/apps/giscus> → Install → 勾选 `TATZhaohn/blog`），否则评论区会报 `giscus is not installed on this repository`
+- mapping 用默认的 `pathname`：文章 permalink 一改，旧评论就对不上了
+
 ## 主题定制
 
 ### `_config.butterfly.yml` 的 `inject.head`（大部分自定义都在这里）
@@ -163,7 +172,7 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 | 域名 | tatzhao.top |
 | 永久链接 | `:year/:month/:day/:title/`（文章另有 `permalink` 覆盖） |
 | 时区 | Asia/Shanghai |
-| 评论 | 未启用（Giscus 预留，步骤见 [DEPLOY.md](DEPLOY.md)） |
+| 评论 | Giscus（GitHub Discussions，需安装 giscus App） |
 | GitHub | <https://github.com/TATZhaohn> |
 | Bilibili | <https://space.bilibili.com/324056528> |
 | MakerWorld | <https://makerworld.com.cn/@TATZhao> |
@@ -171,6 +180,6 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 
 ## 待办
 
-- [ ] 用 Giscus 启用评论
+- [x] 用 Giscus 启用评论（配置完成，待安装 giscus App 后生效）
 - [ ] 补全 B 站剩余早期视频（受平台风控限制）
 - [ ] 壁纸板块持续补充
