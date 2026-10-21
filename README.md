@@ -102,7 +102,7 @@ toc: true
 `source/timeline/index.md` 用 Butterfly 内建的 `{% timeline %}` 标签，按月分组，每个月份节点里列出该月新增的视频/项目/模型。新增内容后补一行即可：
 
 ```markdown
-{% timeline 2026, #49b1f5 %}
+{% timeline 2026, #6EA6FE %}
 <!-- timeline 10 月 -->
 - 10-20 GitHub 项目：本站源码
 - 10-12 3D 模型：P2S 辅助散热器
@@ -148,12 +148,17 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 
 ### `_config.butterfly.yml` 的 `inject.head`（大部分自定义都在这里）
 
-- 顶部 header 半透明灰底（浅色 `rgba(128,128,128,.4)`，深色 `rgba(0,0,0,.5)`；首页 banner 深色下压暗到 `.85`）
-- 首页 banner 顶部 22% 黑色遮罩（白字可读）
+- 主色 `#6EA6FE`（启用 `theme_color:` 整段，替换主题默认的青绿 `#00c4b6`）
+- header / footer 渐变遮罩：浅色 `rgba(255,255,255,.8)`、深色按图层分两套 —— 有 banner 图的首页 `.85 → .85 → .7`，背景透明的其余页面与 footer `.7 → .7 → 0`（下方 `#web_bg::before` 已叠 `.7`，终点写 0 才和内容区对齐）；两者都是前 50% 纯色、后 50% 渐隐
+- 浅色模式 header 文字改深色 `#2b2b2b`（统一加 `html:not([data-theme='dark'])` 前缀，深色模式不受影响）
+- 卡片半透明 + 背景模糊：`:root` 里 `--card-bg-main: rgba(255,255,255,.8)` / `--card-bg-sub: rgba(255,255,255,.68)`（深色对应 `rgba(18,18,18,.8)` / `rgba(28,28,28,.68)`），配 `backdrop-filter: blur(12px)`
 - 全局卡片墙样式（`.work-card` / `.works-page` / `.wallpaper-*` / `.home-section-*`）
 - 板块页排序按钮 `.sort-bar` + 排序脚本
 - 搜索弹窗美化
 - 手机端优化（社交图标圆底、banner 高度、单列布局），标记为 `/* MOBILE-OPT-2026 */`
+- 首页「站内板块」只保留图标 / 名称 / 描述，不显示数量（`home-sections.pug` 与 `home_sections.yml` 均已去掉 `count`）
+- 侧栏作者卡「Follow Me」按钮已关闭（`aside.card_author.button.enable: false`）
+- favicon 由头像抠图生成（四角 floodfill 去白底成透明 PNG，16/32/64/180 四尺寸）
 - favicon 的 3 个 `<link>`（**属性必须用单引号**：inject.head 是 YAML 双引号字符串，双引号会破坏 YAML）
 
 ### 主题源文件改动（升级主题时需要重新打补丁）
