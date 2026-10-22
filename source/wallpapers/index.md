@@ -1337,7 +1337,7 @@ top_img: /img/top-plain.png
 
 ## Wallpaper Engine
 
-Wallpaper Engine 相关的壁纸，请前往 Wallpaper Engine 创意工坊搜索图片中的对应名字下载。
+Wallpaper Engine 相关的壁纸，下方为预览缩略图，点开后显示为带壁纸名称的截图，请前往 Wallpaper Engine 创意工坊搜索图片中的对应名字下载。
 
 ### 2025-03（1）
 
