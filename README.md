@@ -20,7 +20,7 @@
 | 壁纸 | `/wallpapers/` | 自用壁纸分享（静态图 / Wallpaper Engine 两类） |
 | 时间轴 | `/timeline/` | 按月汇总全站更新（视频 / 项目 / 模型 / 硬件） |
 
-各板块卡片都支持排序切换（按日期 / 播放量 / Star / 用量等，再点一次切换升/降序）。
+各板块卡片按时间排序（点一次按钮切换升/降序）。**不展示播放量、点赞、下载等外站统计**——这些数字无法自动同步，放上去只会永远是旧值，所以统一去掉了。
 
 ## 目录结构
 
@@ -69,7 +69,9 @@ blog/
 - 全量数据 `source/_data/videos-search.json`（id / title / desc / url / date / season）
 - 首页最新视频在 `source/_data/home_videos.yml`
 
-要加新视频：取到 `bvid`、标题、封面（存 `source/img/covers/video-<bvid>.jpg`）、简介、播放量、发布日期，同步更新上面两个文件后重新构建。
+要加新视频：取到 `bvid`、标题、封面（存 `source/img/covers/video-<bvid>.jpg`）、简介、发布日期，同步更新上面两个文件后重新构建。
+
+> 卡片上不显示播放量（外站统计无法自动更新），只有发布日期。
 
 ### GitHub / 3D 模型 / 硬件
 
@@ -153,7 +155,7 @@ Butterfly 的本地搜索默认只索引文章（`_config.yml` 里 `search.field
 - 浅色模式 header 文字改深色 `#2b2b2b`（统一加 `html:not([data-theme='dark'])` 前缀，深色模式不受影响）
 - 卡片半透明 + 背景模糊：`:root` 里 `--card-bg-main: rgba(255,255,255,.8)` / `--card-bg-sub: rgba(255,255,255,.68)`（深色对应 `rgba(18,18,18,.8)` / `rgba(28,28,28,.68)`），配 `backdrop-filter: blur(12px)`
 - 全局卡片墙样式（`.work-card` / `.works-page` / `.wallpaper-*` / `.home-section-*`）
-- 板块页排序按钮 `.sort-bar` + 排序脚本
+- 板块页排序按钮 `.sort-bar` + 排序脚本（只按日期，可切升/降序）
 - 搜索弹窗美化
 - 手机端优化（社交图标圆底、banner 高度、单列布局），标记为 `/* MOBILE-OPT-2026 */`
 - 首页「站内板块」只保留图标 / 名称 / 描述，不显示数量（`home-sections.pug` 与 `home_sections.yml` 均已去掉 `count`）

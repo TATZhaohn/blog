@@ -10,7 +10,7 @@ description: "搞机圈的 MBTI 人格测试：答几道题，测出你是哪种
 top_img: /img/top-plain.png
 toc: true
 ---
-> 仓库：[blti-test](https://github.com/TATZhaohn/blti-test) · 语言 **HTML** · ⭐ **1** · 更新于 2026-04-15
+> 仓库：[blti-test](https://github.com/TATZhaohn/blti-test) · 语言 **HTML** · 更新于 2026-04-15
 
 <img src="/img/covers/github/blti-test.svg" alt="BLTI 搞机圈人格测试" style="width:100%;border-radius:10px">
 

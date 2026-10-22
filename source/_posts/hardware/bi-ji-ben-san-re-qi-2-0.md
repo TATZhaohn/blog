@@ -10,7 +10,7 @@ description: "能够自动运行的智能笔记本风压式散热器，基于esp
 toc: true
 top_img: /img/top-plain.png
 ---
-> 工程：[ZCooler-智能笔记本风压式散热器2.0](https://oshwhub.com/tatzhao/bi-ji-ben-san-re-qi-2-0) · 2025-09-17 · 浏览 1600 · 点赞 5 · 收藏 8 · 许可证 GPL 3.0
+> 工程：[ZCooler-智能笔记本风压式散热器2.0](https://oshwhub.com/tatzhao/bi-ji-ben-san-re-qi-2-0) · 2025-09-17 · 许可证 GPL 3.0
 
 <img src="/img/covers/oshub/bi-ji-ben-san-re-qi-2-0.jpg" alt="ZCooler-智能笔记本风压式散热器2.0" style="width:100%;border-radius:10px">
 

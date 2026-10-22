@@ -10,7 +10,7 @@ description: "基于 Hexo 8 + Butterfly 5.7 的静态博客，通过 GitHub Acti
 top_img: /img/top-plain.png
 toc: true
 ---
-> 仓库：[blog](https://github.com/TATZhaohn/blog) · 语言 **JavaScript** · ⭐ **0** · 更新于 2026-10-20
+> 仓库：[blog](https://github.com/TATZhaohn/blog) · 语言 **JavaScript** · 更新于 2026-10-20
 
 <img src="/img/covers/github/blog.svg" alt="本站源码（Hexo + Butterfly）" style="width:100%;border-radius:10px">
 

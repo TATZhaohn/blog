@@ -10,7 +10,7 @@ description: "轻薄游戏本的散热与噪声控制表现一般，于是做了
 toc: true
 top_img: /img/top-plain.png
 ---
-> 工程：[RGB智能风压式笔电散热器](https://oshwhub.com/tatzhao/bi-dian-san-re-qi) · 2024-09-29 · 浏览 9559 · 点赞 45 · 收藏 93 · 许可证 GPL 3.0
+> 工程：[RGB智能风压式笔电散热器](https://oshwhub.com/tatzhao/bi-dian-san-re-qi) · 2024-09-29 · 许可证 GPL 3.0
 
 <img src="/img/covers/oshub/bi-dian-san-re-qi.jpg" alt="RGB智能风压式笔电散热器" style="width:100%;border-radius:10px">
 

@@ -10,7 +10,7 @@ description: "这是一个基于esp wroom 32e制作的带RGB的支持小爱同�
 toc: true
 top_img: /img/top-plain.png
 ---
-> 工程：[智能炫彩空气净化器【星火计划】](https://oshwhub.com/tatzhao/smart-colorful-air-purifier-spark-plan) · 2024-05-29 · 浏览 20447 · 点赞 77 · 收藏 171 · 许可证 GPL 3.0
+> 工程：[智能炫彩空气净化器【星火计划】](https://oshwhub.com/tatzhao/smart-colorful-air-purifier-spark-plan) · 2024-05-29 · 许可证 GPL 3.0
 
 <img src="/img/covers/oshub/smart-colorful-air-purifier-spark-plan.jpg" alt="智能炫彩空气净化器【星火计划】" style="width:100%;border-radius:10px">
 

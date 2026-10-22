@@ -10,7 +10,7 @@ description: "能够自动运行的智能笔记本风压式散热器，基于esp
 top_img: /img/top-plain.png
 toc: true
 ---
-> 仓库：[ZCooler--an-Automatic-Intelligent-Air-Pressure-Laptop-Cooler](https://github.com/TATZhaohn/ZCooler--an-Automatic-Intelligent-Air-Pressure-Laptop-Cooler) · 语言 **-** · ⭐ **17** · 更新于 2025-09-19
+> 仓库：[ZCooler--an-Automatic-Intelligent-Air-Pressure-Laptop-Cooler](https://github.com/TATZhaohn/ZCooler--an-Automatic-Intelligent-Air-Pressure-Laptop-Cooler) · 语言 **-** · 更新于 2025-09-19
 
 <img src="/img/covers/github/ZCooler--an-Automatic-Intelligent-Air-Pressure-Laptop-Cooler.svg" alt="ZCooler 智能笔记本风压式散热器" style="width:100%;border-radius:10px">
 
