@@ -104,16 +104,12 @@ top_img: /img/top-plain.png
 </a>
 </div>
 
-### 2025-03（2）
+### 2025-03（1）
 
 <div class="wallpaper-grid">
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-03/48f15355a83bdc9e.webp" target="_blank" rel="noopener" title="IMG_20250223_005052.jpg">
   <img src="/img/wallpapers/thumbs/48f15355a83bdc9e.webp" alt="IMG_20250223_005052.jpg" loading="lazy" width="4968" height="11056">
   <span>4968 × 11056</span>
-</a>
-<a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-03/e3c0012845b4c033.webp" target="_blank" rel="noopener" title="电脑壁纸：wallpaperengine搜胡桃-窗前.jpg">
-  <img src="/img/wallpapers/thumbs/e3c0012845b4c033.webp" alt="电脑壁纸：wallpaperengine搜胡桃-窗前.jpg" loading="lazy" width="4096" height="3072">
-  <span>4096 × 3072</span>
 </a>
 </div>
 
@@ -175,15 +171,6 @@ top_img: /img/top-plain.png
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-10/3e373811279525ce.webp" target="_blank" rel="noopener" title="1727441458950_format,jpg&amp;big.jpg">
   <img src="/img/wallpapers/thumbs/3e373811279525ce.webp" alt="1727441458950_format,jpg&amp;big.jpg" loading="lazy" width="4208" height="9360">
   <span>4208 × 9360</span>
-</a>
-</div>
-
-### 2024-09（1）
-
-<div class="wallpaper-grid">
-<a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-09/90577d3c5badc268.webp" target="_blank" rel="noopener" title="IMG_20240923_182746.jpg">
-  <img src="/img/wallpapers/thumbs/90577d3c5badc268.webp" alt="IMG_20240923_182746.jpg" loading="lazy" width="4096" height="3072">
-  <span>4096 × 3072</span>
 </a>
 </div>
 
@@ -1364,4 +1351,15 @@ top_img: /img/top-plain.png
 
 ## Wallpaper Engine
 
-Wallpaper Engine 动态壁纸（含工程文件）整理中，后续补充。
+Wallpaper Engine 相关的壁纸，共 2 张。更多动态壁纸（含工程文件）整理中。
+
+<div class="wallpaper-grid">
+<a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/we/90577d3c5badc268.webp" target="_blank" rel="noopener" title="IMG_20240923_182746.jpg">
+  <img src="/img/wallpapers/thumbs/90577d3c5badc268.webp" alt="IMG_20240923_182746.jpg" loading="lazy" width="4096" height="3072">
+  <span>4096 × 3072</span>
+</a>
+<a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/we/e3c0012845b4c033.webp" target="_blank" rel="noopener" title="电脑壁纸：wallpaperengine搜胡桃-窗前.jpg">
+  <img src="/img/wallpapers/thumbs/e3c0012845b4c033.webp" alt="电脑壁纸：wallpaperengine搜胡桃-窗前.jpg" loading="lazy" width="4096" height="3072">
+  <span>4096 × 3072</span>
+</a>
+</div>
