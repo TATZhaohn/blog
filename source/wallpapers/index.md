@@ -16,9 +16,8 @@ top_img: /img/top-plain.png
 
 缩略图点击可在新窗口打开原图（由 Cloudflare R2 加速）。
 
-### 2026-02（2）
-
-<div class="wallpaper-grid">
+<div class="wp-grid6">
+<div class="wp-month"><b>2026-02</b><span>2 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2026-02/8a1e064d70c0d63e.webp" target="_blank" rel="noopener" title="1770288825789_format,jpeg&amp;big_1770304532184edit.jpg">
   <img src="/img/wallpapers/thumbs/8a1e064d70c0d63e.webp" alt="1770288825789_format,jpeg&amp;big_1770304532184edit.jpg" loading="lazy" width="3095" height="6886">
   <span>3095 × 6886</span>
@@ -27,11 +26,7 @@ top_img: /img/top-plain.png
   <img src="/img/wallpapers/thumbs/437c523b0ee3cda4.webp" alt="20260125-192744-eab74f.jpeg" loading="lazy" width="1080" height="2340">
   <span>1080 × 2340</span>
 </a>
-</div>
-
-### 2026-01（2）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2026-01</b><span>2 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2026-01/ca6c89a29aca193c.webp" target="_blank" rel="noopener" title="1768136873845_format,jpeg&amp;big.jpeg">
   <img src="/img/wallpapers/thumbs/ca6c89a29aca193c.webp" alt="1768136873845_format,jpeg&amp;big.jpeg" loading="lazy" width="2160" height="4732">
   <span>2160 × 4732</span>
@@ -40,56 +35,32 @@ top_img: /img/top-plain.png
   <img src="/img/wallpapers/thumbs/14ae06f2654bb25a.webp" alt="IMG_20260111_211756.jpg" loading="lazy" width="1634" height="3640">
   <span>1634 × 3640</span>
 </a>
-</div>
-
-### 2025-12（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-12</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-12/a1a12172edcb7f43.webp" target="_blank" rel="noopener" title="IMG_20251217_144356.jpg">
   <img src="/img/wallpapers/thumbs/a1a12172edcb7f43.webp" alt="IMG_20251217_144356.jpg" loading="lazy" width="1391" height="3063">
   <span>1391 × 3063</span>
 </a>
-</div>
-
-### 2025-09（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-09</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-09/1966109b04606313.webp" target="_blank" rel="noopener" title="1b17d7003303e0dc76530d07b2b2c716.jpeg">
   <img src="/img/wallpapers/thumbs/1966109b04606313.webp" alt="1b17d7003303e0dc76530d07b2b2c716.jpeg" loading="lazy" width="1080" height="2376">
   <span>1080 × 2376</span>
 </a>
-</div>
-
-### 2025-08（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-08</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-08/8978b5b6d7e00256.webp" target="_blank" rel="noopener" title="IMG_20250822_114206.jpg">
   <img src="/img/wallpapers/thumbs/8978b5b6d7e00256.webp" alt="IMG_20250822_114206.jpg" loading="lazy" width="4232" height="9418">
   <span>4232 × 9418</span>
 </a>
-</div>
-
-### 2025-07（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-07</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-07/3288e40b635b948b.webp" target="_blank" rel="noopener" title="175e836d78b6c9beee5827edf783bd62.jpeg">
   <img src="/img/wallpapers/thumbs/3288e40b635b948b.webp" alt="175e836d78b6c9beee5827edf783bd62.jpeg" loading="lazy" width="1200" height="2670">
   <span>1200 × 2670</span>
 </a>
-</div>
-
-### 2025-06（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-06</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-06/7bfeb4169b7e5ea4.webp" target="_blank" rel="noopener" title="IMG_20250609_161310.jpg">
   <img src="/img/wallpapers/thumbs/7bfeb4169b7e5ea4.webp" alt="IMG_20250609_161310.jpg" loading="lazy" width="1052" height="2340">
   <span>1052 × 2340</span>
 </a>
-</div>
-
-### 2025-04（3）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-04</b><span>3 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-04/b36b553997e58654.webp" target="_blank" rel="noopener" title="42674d103d2d95600a70f67f8875aabf.jpeg">
   <img src="/img/wallpapers/thumbs/b36b553997e58654.webp" alt="42674d103d2d95600a70f67f8875aabf.jpeg" loading="lazy" width="1080" height="2376">
   <span>1080 × 2376</span>
@@ -102,20 +73,12 @@ top_img: /img/top-plain.png
   <img src="/img/wallpapers/thumbs/9289f78789f1512a.webp" alt="e83531934bf3cdb11b2d7a03cf948c30.jpeg" loading="lazy" width="1280" height="2816">
   <span>1280 × 2816</span>
 </a>
-</div>
-
-### 2025-03（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-03</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-03/48f15355a83bdc9e.webp" target="_blank" rel="noopener" title="IMG_20250223_005052.jpg">
   <img src="/img/wallpapers/thumbs/48f15355a83bdc9e.webp" alt="IMG_20250223_005052.jpg" loading="lazy" width="4968" height="11056">
   <span>4968 × 11056</span>
 </a>
-</div>
-
-### 2025-02（3）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-02</b><span>3 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-02/1b587831a1f3772a.webp" target="_blank" rel="noopener" title="1738291640160ef57e247f653e9d5640923d0cd8add993ba73cdd53eec0a08c5d9a43f6fd75a7.0.jpg">
   <img src="/img/wallpapers/thumbs/1b587831a1f3772a.webp" alt="1738291640160ef57e247f653e9d5640923d0cd8add993ba73cdd53eec0a08c5d9a43f6fd75a7.0.jpg" loading="lazy" width="2469" height="4389">
   <span>2469 × 4389</span>
@@ -128,11 +91,7 @@ top_img: /img/top-plain.png
   <img src="/img/wallpapers/thumbs/83d3ec15ad75a1c3.webp" alt="IMG_20250131_105025.jpg" loading="lazy" width="2171" height="4829">
   <span>2171 × 4829</span>
 </a>
-</div>
-
-### 2025-01（3）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2025-01</b><span>3 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2025-01/5efb425b630b7aa1.webp" target="_blank" rel="noopener" title="1737012633656_format,png&amp;big.png">
   <img src="/img/wallpapers/thumbs/5efb425b630b7aa1.webp" alt="1737012633656_format,png&amp;big.png" loading="lazy" width="3172" height="7060">
   <span>3172 × 7060</span>
@@ -145,47 +104,27 @@ top_img: /img/top-plain.png
   <img src="/img/wallpapers/thumbs/1a4e28313d0ce8f7.webp" alt="IMG_20230121_225558.jpg" loading="lazy" width="4148" height="9216">
   <span>4148 × 9216</span>
 </a>
-</div>
-
-### 2024-12（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2024-12</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-12/c017dba646c5dbac.webp" target="_blank" rel="noopener" title="IMG_20240811_185802.png">
   <img src="/img/wallpapers/thumbs/c017dba646c5dbac.webp" alt="IMG_20240811_185802.png" loading="lazy" width="1319" height="2935">
   <span>1319 × 2935</span>
 </a>
-</div>
-
-### 2024-11（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2024-11</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-11/4b65638630da8d97.webp" target="_blank" rel="noopener" title="IMG_20241101_123912.jpg">
   <img src="/img/wallpapers/thumbs/4b65638630da8d97.webp" alt="IMG_20241101_123912.jpg" loading="lazy" width="4660" height="10368">
   <span>4660 × 10368</span>
 </a>
-</div>
-
-### 2024-10（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2024-10</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-10/3e373811279525ce.webp" target="_blank" rel="noopener" title="1727441458950_format,jpg&amp;big.jpg">
   <img src="/img/wallpapers/thumbs/3e373811279525ce.webp" alt="1727441458950_format,jpg&amp;big.jpg" loading="lazy" width="4208" height="9360">
   <span>4208 × 9360</span>
 </a>
-</div>
-
-### 2024-08（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2024-08</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-08/895f335f5a05e3a6.webp" target="_blank" rel="noopener" title="IMG_20240809_192132.jpg">
   <img src="/img/wallpapers/thumbs/895f335f5a05e3a6.webp" alt="IMG_20240809_192132.jpg" loading="lazy" width="1052" height="2340">
   <span>1052 × 2340</span>
 </a>
-</div>
-
-### 2024-03（1）
-
-<div class="wallpaper-grid">
+<div class="wp-month"><b>2024-03</b><span>1 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2024-03/b24648abf520e600.webp" target="_blank" rel="noopener" title="mmexport1710000306432.jpg">
   <img src="/img/wallpapers/thumbs/b24648abf520e600.webp" alt="mmexport1710000306432.jpg" loading="lazy" width="8952" height="5484">
   <span>8952 × 5484</span>
