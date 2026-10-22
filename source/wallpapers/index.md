@@ -1341,7 +1341,7 @@ Wallpaper Engine 相关的壁纸，请前往 Wallpaper Engine 创意工坊搜索
 
 ### 2025-03（1）
 
-<div class="wallpaper-grid">
+<div class="wallpaper-grid wallpaper-grid--we">
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/we/hutao-info.webp" target="_blank" rel="noopener" title="胡桃-窗前">
   <img src="/img/wallpapers/we-hutao.webp" alt="胡桃-窗前" loading="lazy" width="600" height="337">
   <span>胡桃-窗前</span>
@@ -1350,7 +1350,7 @@ Wallpaper Engine 相关的壁纸，请前往 Wallpaper Engine 创意工坊搜索
 
 ### 2024-09（1）
 
-<div class="wallpaper-grid">
+<div class="wallpaper-grid wallpaper-grid--we">
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/we/gudugun-info.webp" target="_blank" rel="noopener" title="孤独摇滚">
   <img src="/img/wallpapers/we-gudugun.webp" alt="孤独摇滚" loading="lazy" width="600" height="337">
   <span>孤独摇滚</span>
