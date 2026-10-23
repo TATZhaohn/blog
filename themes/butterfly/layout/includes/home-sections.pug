@@ -8,7 +8,8 @@
     span 站内板块
   .home-section-grid
     each s in homeSections
-      a.home-section-card(href=url_for(s.href))
+      - const isExternal = /^https?:\/\//.test(s.href)
+      a.home-section-card(href=url_for(s.href) target=isExternal ? '_blank' : false rel=isExternal ? 'noopener' : false)
         .home-section-icon
           i(class=s.icon)
         .home-section-name= s.title
