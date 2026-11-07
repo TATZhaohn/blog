@@ -5,11 +5,13 @@ comments: false
 toc: false
 ---
 
-<div class="work-card__desc">共 <b>252</b> 条视频 · 默认按发布时间倒序，点卡片直接跳转 B 站。</div>
+<div class="work-card__desc">共 <b>253</b> 条视频 · 默认按发布时间倒序，点卡片直接跳转 B 站。</div>
 
 <div class="sort-bar" data-target="#works-video" data-sorts="date:最新发布"></div>
 
 <div class="works-page" id="works-video">
+
+<div class="work-card" id="BV1yG4E6cE46" data-date="2026-11-07" data-title="【无广】通过平板无纸化学习，获得保研资格的经验分享｜工科生数码UP装备分享EP02"><a class="work-card__click" href="https://www.bilibili.com/video/BV1yG4E6cE46" target="_blank" rel="noopener" aria-label="【无广】通过平板无纸化学习，获得保研资格的经验分享｜工科生数码UP装备分享EP02"></a><div class="work-card__cover"><img src="/img/covers/bili/BV1yG4E6cE46.jpg" alt="【无广】通过平板无纸化学习，获得保研资格的经验分享｜工科生数码UP装备分享EP02" loading="lazy"><span class="work-card__badge">视频</span></div><div class="work-card__body"><p class="work-card__title">【无广】通过平板无纸化学习，获得保研资格的经验分享｜工科生数码UP装备分享EP02</p><p class="work-card__desc">久等了~</p><div class="work-card__meta"><span>2026-11-07</span></div></div></div>
 
 <div class="work-card" id="BV1kGxg6NE46" data-date="2026-10-28" data-title="【无广】吸不牢?小米金沙江超薄磁吸充电宝2026款体验分享"><a class="work-card__click" href="https://www.bilibili.com/video/BV1kGxg6NE46" target="_blank" rel="noopener" aria-label="【无广】吸不牢?小米金沙江超薄磁吸充电宝2026款体验分享"></a><div class="work-card__cover"><img src="/img/covers/bili/BV1kGxg6NE46.jpg" alt="【无广】吸不牢?小米金沙江超薄磁吸充电宝2026款体验分享" loading="lazy"><span class="work-card__badge">视频</span></div><div class="work-card__body"><p class="work-card__title">【无广】吸不牢?小米金沙江超薄磁吸充电宝2026款体验分享</p><div class="work-card__meta"><span>2026-10-28</span></div></div></div>
 

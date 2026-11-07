@@ -6,6 +6,9 @@ toc: false
 ---
 
 {% timeline 2026, #6EA6FE %}
+<!-- timeline 11 月 -->
+- [11-07](https://www.bilibili.com/video/BV1yG4E6cE46) 视频：【无广】通过平板无纸化学习，获得保研资格的经验分享｜工科生数码UP装备分享EP…
+<!-- endtimeline -->
 <!-- timeline 10 月 -->
 - [10-28](https://www.bilibili.com/video/BV1kGxg6NE46) 视频：【无广】吸不牢?小米金沙江超薄磁吸充电宝2026款体验分享
 - [10-20](https://github.com/TATZhaohn/blog) GitHub 项目：blog

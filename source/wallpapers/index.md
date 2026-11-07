@@ -17,6 +17,11 @@ top_img: /img/top-plain.png
 缩略图点击可在新窗口打开原图（由 Cloudflare R2 加速）。
 
 <div class="wp-grid6">
+<div class="wp-month"><b>2026-11</b><span>1 张</span></div>
+<a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2026-11/ba130dccf48d87d2.png" target="_blank" rel="noopener" title="IMG_20261106_155946.png">
+  <img src="/img/wallpapers/thumbs/ba130dccf48d87d2.webp" alt="IMG_20261106_155946.png" loading="lazy" width="3840" height="1776">
+  <span>3840 × 1776</span>
+</a>
 <div class="wp-month"><b>2026-02</b><span>2 张</span></div>
 <a class="wallpaper-item" href="https://img.tatzhao.top/wallpapers/2026-02/8a1e064d70c0d63e.jpg" target="_blank" rel="noopener" title="1770288825789_format,jpeg&amp;big_1770304532184edit.jpg">
   <img src="/img/wallpapers/thumbs/8a1e064d70c0d63e.webp" alt="1770288825789_format,jpeg&amp;big_1770304532184edit.jpg" loading="lazy" width="3095" height="6886">
